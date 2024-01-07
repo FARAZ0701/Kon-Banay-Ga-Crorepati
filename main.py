@@ -20,23 +20,25 @@ Trys = 0
 levelsOfMoney = [1000,2000,6000,12000,22000,50000,100000,150000,2000000,250000000,2500000000,2500000000000,3000000000000,3000000000000,40000000000000000,50000000000000000000000]
 for i in range(len(_questions_)):
     question = _questions_[i]
-    try:
-        if Trys <= 4:
-            print(i,"   ",question[0])
-            print(question[1],"   ",question[2])
-            print(question[3],"   ",question[4])
-            
+    
+    if Trys <= 4:
+        print(i,"   ",question[0])
+        print(question[1],"   ",question[2])
+        print(question[3],"   ",question[4])
+        try:
             reply = int(input("Enter number of right answer : "))
-            if reply == question[5]:
-                Money = levelsOfMoney[i]
-                print("Right answer  ",Money)
-            else:
-                Trys += 1
-                print(f"wrong answer{question[5]}  ,  Money = {Money} Rs")
+        except:
+            print("The number you have entered in not a integer")
+            continue
+        if reply == question[5]:
+            Money = levelsOfMoney[i]
+            print("Right answer  ",Money)
         else:
-            print("TOO many try, You are ILLITERATE!!!!")
-    except:
-        print("Invalid input")
+            Trys += 1
+            print(f"wrong answer{question[5]}  ,  Money = {Money} Rs")
+    else:
+        print("TOO many try, You are ILLITERATE!!!!")
+
         
 if Trys == 0:
     print("You are amazing, all answers are right and you have got ",Money," Rs")
