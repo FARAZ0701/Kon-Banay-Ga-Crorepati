@@ -27,7 +27,7 @@ for i in range(len(_questions_)):
         print(question[3],"   ",question[4])
         try:
             reply = int(input("Enter number of right answer : "))
-        except:
+        except ValueError:
             print("The number you have entered in not a integer")
             continue
         if reply == question[5]:
