@@ -67,6 +67,67 @@ _random_questions_ = [
     ["Who painted 'Starry Night'?", "1: Claude Monet", "2: Vincent van Gogh", "3: Pablo Picasso", "4: Salvador Dalí", 2],
 ]
 
+_capital_cities_ = [
+    ["What is the capital of Japan?", "1: Beijing", "2: Seoul", "3: Tokyo", "4: Bangkok", 3],
+    ["Which city is the capital of Canada?", "1: Toronto", "2: Vancouver", "3: Ottawa", "4: Montreal", 3],
+    ["What is the capital of Brazil?", "1: Buenos Aires", "2: Santiago", "3: Bogotá", "4: Brasília", 4],
+    ["Which city serves as the capital of Australia?", "1: Melbourne", "2: Sydney", "3: Canberra", "4: Perth", 3],
+    ["What is the capital of South Africa?", "1: Nairobi", "2: Pretoria", "3: Cape Town", "4: Johannesburg", 2],
+]
+
+_planets_ = [
+    ["Which planet is known as the 'Red Planet'?", "1: Venus", "2: Mars", "3: Jupiter", "4: Saturn", 2],
+    ["What is the largest planet in our solar system?", "1: Earth", "2: Jupiter", "3: Saturn", "4: Neptune", 2],
+    ["Which planet is often called the 'Evening Star' or 'Morning Star'?", "1: Mercury", "2: Venus", "3: Mars", "4: Jupiter", 2],
+    ["What is the smallest planet in our solar system?", "1: Mercury", "2: Venus", "3: Mars", "4: Pluto", 1],
+    ["Which planet is known for its prominent ring system?", "1: Jupiter", "2: Saturn", "3: Neptune", "4: Uranus", 2],
+]
+
+_literature_ = [
+    ["Who wrote 'To Kill a Mockingbird'?", "1: J.K. Rowling", "2: Harper Lee", "3: George Orwell", "4: Jane Austen", 2],
+    ["In which play does the character Hamlet appear?", "1: Macbeth", "2: Othello", "3: Romeo and Juliet", "4: Hamlet", 4],
+    ["Who wrote '1984'?", "1: Aldous Huxley", "2: George Orwell", "3: Ray Bradbury", "4: H.G. Wells", 2],
+    ["Which author is known for the 'Harry Potter' series?", "1: J.R.R. Tolkien", "2: J.K. Rowling", "3: Suzanne Collins", "4: Stephen King", 2],
+    ["In 'Pride and Prejudice', who is the main character?", "1: Elizabeth Bennet", "2: Jane Eyre", "3: Emma Woodhouse", "4: Catherine Earnshaw", 1],
+]
+
+_animals_ = [
+    ["What is the largest land mammal?", "1: Elephant", "2: Rhino", "3: Giraffe", "4: Hippopotamus", 1],
+    ["Which bird is known for its ability to mimic human speech?", "1: Crow", "2: Parrot", "3: Owl", "4: Penguin", 2],
+    ["What is the largest species of big cat?", "1: Lion", "2: Tiger", "3: Jaguar", "4: Cheetah", 2],
+    ["Which animal is known as the 'King of the Jungle'?", "1: Elephant", "2: Tiger", "3: Lion", "4: Gorilla", 3],
+    ["Which reptile is known for changing the color of its skin?", "1: Crocodile", "2: Chameleon", "3: Snake", "4: Turtle", 2],
+]
+
+_science_ = [
+    ["What is the chemical symbol for water?", "1: H2O", "2: CO2", "3: O2", "4: N2", 1],
+    ["Which element is represented by the symbol 'Fe'?", "1: Iron", "2: Gold", "3: Silver", "4: Zinc", 1],
+    ["What is the smallest unit of life?", "1: Atom", "2: Cell", "3: Molecule", "4: Organ", 2],
+    ["What does DNA stand for?", "1: Deoxyribonucleic Acid", "2: Ribonucleic Acid", "3: Dinucleic Acid", "4: Deoxynucleotide Acid", 1],
+    ["Which gas do plants absorb from the atmosphere?", "1: Oxygen", "2: Carbon Dioxide", "3: Nitrogen", "4: Hydrogen", 2],
+]
+
+_general_knowledge_ = [
+    ["What is the currency of Japan?", "1: Yen", "2: Won", "3: Ringgit", "4: Baht", 1],
+    ["Who is known as the 'Father of the Nation' in India?", "1: Jawaharlal Nehru", "2: Sardar Vallabhbhai Patel", "3: Mahatma Gandhi", "4: Subhas Chandra Bose", 3],
+    ["What is the longest river in the world?", "1: Nile", "2: Amazon", "3: Ganges", "4: Yangtze", 1],
+    ["In which year did World War II end?", "1: 1942", "2: 1945", "3: 1950", "4: 1939", 2],
+    ["Who painted the Mona Lisa?", "1: Michelangelo", "2: Leonardo da Vinci", "3: Vincent van Gogh", "4: Pablo Picasso", 2],
+]
+_mathematics_questions_ = [
+    ["What is the value of π (pi) to two decimal places?", "1: 3.14", "2: 3.25", "3: 3.50", "4: 3.75", 1],
+    ["If a triangle has angles of 90, 45, and 45 degrees, what type of triangle is it?", "1: Equilateral", "2: Isosceles", "3: Scalene", "4: Right-angled", 4],
+    ["What is the square of 9?", "1: 81", "2: 64", "3: 100", "4: 121", 1],
+    ["Solve for x: 2x + 5 = 15", "1: x = 5", "2: x = 10", "3: x = 7.5", "4: x = 3", 2],
+    ["If a rectangle has a length of 8 units and a width of 5 units, what is its perimeter?", "1: 13 units", "2: 18 units", "3: 26 units", "4: 40 units", 3],
+    ["What is the result of 3 to the power of 4 (3^4)?", "1: 9", "2: 12", "3: 27", "4: 81", 4],
+    ["If a circle has a radius of 6 units, what is its area (use π = 3.14)?", "1: 18.84 square units", "2: 37.68 square units", "3: 113.04 square units", "4: 226.08 square units", 3],
+    ["What is the sum of the interior angles of a hexagon?", "1: 540 degrees", "2: 600 degrees", "3: 720 degrees", "4: 900 degrees", 1],
+    ["If a number is divisible by both 2 and 3, what is the smallest possible positive integer it could be?", "1: 2", "2: 3", "3: 6", "4: 12", 3],
+    ["What is the value of the square root of 64?", "1: 6", "2: 7", "3: 8", "4: 9", 3],
+]
+
+
 def KBC(_questions_):
 
     Money = 0
@@ -76,7 +137,7 @@ def KBC(_questions_):
         question = _questions_[i]
         
         if Trys <= 2:
-            print(i," : ",question[0])
+            print(i+1," : ",question[0])
             print("\n",question[1],"\n\n",question[2],"\n\n")
             print(question[3],"\n\n",question[4])
             try:
@@ -103,18 +164,16 @@ def KBC(_questions_):
 x = "Value has to be changed"
 
 def InputTypeOfQuestion():
-    typeOfQuestion = ["Which field do you belong to ","1 : Astronomy","2 : Movie" , "3 : Data Scientist" , "4 : Python Programming" , "5 : None of these"]
+    typeOfQuestion = ["Which field do you belong to ","1 : Astronomy","2 : Movie" , "3 : Data Scientist" , "4 : Python Programming" ,"5 : Capital Cities", "6 : Planets", "7 : Literature", "8 : Animals", "9 : Science", "10 : General Knowledge" , "11 : Mathematics","12 : None of these"]
     print(typeOfQuestion[0])
-    print(typeOfQuestion[1],"                     ",typeOfQuestion[2])
-    print(typeOfQuestion[3],"   ",typeOfQuestion[4] , typeOfQuestion[5])
+    print(f"{typeOfQuestion[1]}\n{typeOfQuestion[2]}\n{typeOfQuestion[3]}\n{typeOfQuestion[4]}\n{typeOfQuestion[5]}\n{typeOfQuestion[6]}\n{typeOfQuestion[7]}\n{typeOfQuestion[8]}\n{typeOfQuestion[9]}\n{typeOfQuestion[10]}\n{typeOfQuestion[11]}\n{typeOfQuestion[12]}")
     try:
-        reply = int(input("Enter your field in number"))
+        reply = int(input("Enter your field or topic in number : "))
 
     except ValueError:
         print("Your input is not integer")
         InputTypeOfQuestion()
-    if reply < 6:
-        print(reply)
+    if reply < 13:
         x = reply
         if x == 1:
             KBC(_planet_questions_)
@@ -125,12 +184,26 @@ def InputTypeOfQuestion():
         elif x == 4:
             KBC(_python_programming_questions_)
         elif x == 5:
-            KBC(_random_questions_)   
+            KBC(_capital_cities_)   
+        elif x == 6:
+            KBC(_planets_)   
+        elif x == 7:
+            KBC(_literature_)   
+        elif x == 8:
+            KBC(_animals_)   
+        elif x == 9:
+            KBC(_science_)   
+        elif x == 10:
+            KBC(_general_knowledge_)
+        elif x == 11:
+            KBC(_mathematics_questions_)
+        elif x == 12:
+            KBC(_random_questions_)         
         else:
             print("Please give right input")
         
     else:
-        print("Enter number from 1 to 5")
+        print("Enter number from 1 to 12")
         InputTypeOfQuestion()
 
 InputTypeOfQuestion()
